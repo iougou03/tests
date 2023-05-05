@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "rootDir": ".",
+      "baseUrl": ".",
+      "outDir": "../dist",
+      "module": "CommonJS",
+      "typeRoots": [
+        "@types"
+      ]
+    },
+    "include": [
+      "*.ts",
+      "@types/*.d.ts"
+    ],
+    "exclude": [
+      "app/**/*.ts",
+      "public/**/*"
+    ]
+  }
